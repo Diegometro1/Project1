@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main{
+	margin:50px;
+	padding:50px;
+	}
+
+div{
+	background-color:#CCC;
+	margin:20px;
+	padding:20px;
+	}
+	
+#mypic{
+	margin-left:260px;
+	margin-right:260px;
+	}
+
+h1 {
+	text-align:center;
+	color:#C30;
+	text-decoration:underline;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:18px
+	}
+	
+h2{
+	color:#693;
+	font-size:14px;
+	font-family:"Courier New", Courier, monospace;
+	}
