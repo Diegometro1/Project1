@@ -57,7 +57,7 @@ $rand = rand(0, count($quotes)-1);
 
 
     <div id="mypic">
-	    <img src="img/image2.JPG" />
+	    <img src="image2.JPG" />
     </div>
 
 
