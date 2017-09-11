@@ -1,3 +1,45 @@
+<?php
+
+
+$quotes = [
+
+    [
+        'quote' => " “Two things are infinite: the universe and human stupidity;
+                        and I'm not sure about the universe.” ",
+    ],
+
+    [
+        'quote' => " “Don’t walk in front of me… I may not follow
+                        Don’t walk behind me… I may not lead
+                        Walk beside me… just be my friend” ",
+    ],
+
+    [
+        'quote' => "“I've learned that people will forget what you said,
+                        people will forget what you did,
+                        but people will never forget how you made them feel.”",
+    ],
+
+
+    [
+        'quote' => 'A friend is someone who knows all about you and still loves you.'
+
+    ],
+
+];
+
+
+$rand = rand(0, count($quotes)-1);
+
+
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -38,6 +80,13 @@
 
     </div>
 
+
+    <div>
+
+        <p><?php echo $quotes[$rand]['quote']; ?></p>
+
+
+    </div>
 
 
 
