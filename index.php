@@ -44,8 +44,12 @@ $rand = rand(0, count($quotes)-1);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Projects</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>
+        Projects
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
@@ -57,7 +61,7 @@ $rand = rand(0, count($quotes)-1);
 
 
     <div id="mypic">
-	    <img src="img/image2.JPG" />
+	    <img src="img/image2.JPG" alt="My Pic" width="300" height="200" />
     </div>
 
 
